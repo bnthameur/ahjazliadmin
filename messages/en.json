@@ -1,0 +1,250 @@
+{
+    "Admin": {
+        "title": "Admin",
+        "subtitle": "Panel",
+        "nav": {
+            "dashboard": "Dashboard",
+            "venues": "Venues",
+            "users": "Users",
+            "inquiries": "Inquiries",
+            "notifications": "Notifications",
+            "settings": "Settings"
+        },
+        "header": {
+            "signout": "Sign Out"
+        },
+        "role": {
+            "admin": "Administrator",
+            "full_access": "Full platform access"
+        }
+    },
+    "Dashboard": {
+        "title": "Dashboard",
+        "subtitle": "Monitor and manage your platform",
+        "welcome": "Welcome back",
+        "welcome_subtitle": "Here's what's happening on your platform today",
+        "stats": {
+            "pending_venues": "Pending Venues",
+            "approved_venues": "Approved Venues",
+            "published_venues": "Published Venues",
+            "rejected_venues": "Rejected Venues",
+            "pending_users": "Pending Users",
+            "active_users": "Active Users",
+            "rejected_users": "Rejected Users",
+            "total_inquiries": "Total Inquiries",
+            "this_month": "This Month"
+        },
+        "quick_actions": {
+            "title": "Quick Actions",
+            "manage_venues": "Manage Venues",
+            "manage_venues_desc": "Review and approve venue listings",
+            "manage_users": "Manage Users",
+            "manage_users_desc": "Approve venue owner accounts",
+            "view_inquiries": "View Inquiries",
+            "view_inquiries_desc": "Customer inquiries and messages"
+        },
+        "recent_activity": {
+            "title": "Recent Activity",
+            "empty": "No recent activity to display"
+        }
+    },
+    "Venues": {
+        "title": "Venues Management",
+        "subtitle": "Review and manage venue listings",
+        "tabs": {
+            "pending": "Pending",
+            "approved": "Approved",
+            "published": "Published",
+            "rejected": "Rejected"
+        },
+        "no_venues": "No {status} venues found.",
+        "summary": "{status} venues",
+        "fields": {
+            "owner": "Owner",
+            "price": "Price",
+            "capacity": "Capacity",
+            "guests": "guests",
+            "submitted": "Submitted",
+            "contact_price": "Contact for price",
+            "location": "Location",
+            "address": "Address",
+            "email": "Email",
+            "phone": "Phone",
+            "date": "Date"
+        },
+        "actions": {
+            "approve": "Approve",
+            "reject": "Reject",
+            "view": "Review",
+            "publish": "Publish",
+            "unpublish": "Unpublish",
+            "call_owner": "Call Owner",
+            "notify_owner": "Notify Owner",
+            "call_venue": "Call Venue",
+            "pending": "Set Pending"
+        },
+        "rejection_reason": "Rejection Reason",
+        "drawer": {
+            "title": "Venue Details",
+            "sections": {
+                "description": "Description",
+                "amenities": "Amenities",
+                "owner": "Owner",
+                "contact": "Contact"
+            }
+        },
+        "notify": {
+            "title": "Send Notification",
+            "fields": {
+                "title": "Title",
+                "message": "Message"
+            },
+            "placeholders": {
+                "title": "Enter notification title...",
+                "message": "Enter your message..."
+            },
+            "types": {
+                "info": "Info",
+                "success": "Success",
+                "warning": "Warning",
+                "error": "Error"
+            },
+            "send": "Send"
+        },
+        "reject_modal": {
+            "title": "Reject Venue",
+            "description": "Please provide a reason for rejecting \"{{venue}}\"",
+            "placeholder": "Enter rejection reason (e.g., missing information, doesn't meet guidelines, etc.)",
+            "cancel": "Cancel",
+            "confirm": "Reject Venue",
+            "submitting": "Rejecting..."
+        }
+    },
+    "Users": {
+        "title": "Users Management",
+        "subtitle": "Manage venue owner accounts",
+        "tabs": {
+            "pending": "Pending",
+            "active": "Active",
+            "rejected": "Rejected"
+        },
+        "no_users": "No {status} users found.",
+        "summary": "{status} users",
+        "fields": {
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "role": "Role",
+            "joined": "Joined",
+            "business": "Business",
+            "id": "User ID"
+        },
+        "roles": {
+            "admin": "Admin",
+            "venue_owner": "Venue Owner",
+            "user": "User"
+        },
+        "actions": {
+            "approve": "Approve",
+            "reject": "Reject",
+            "view": "Review",
+            "call": "Call",
+            "notify": "Notify",
+            "pending": "Set Pending"
+        },
+        "drawer": {
+            "title": "User Profile",
+            "sections": {
+                "profile": "Profile Details",
+                "actions": "Quick Actions"
+            }
+        },
+        "notify": {
+            "title": "Send Notification",
+            "fields": {
+                "title": "Title",
+                "message": "Message"
+            },
+            "placeholders": {
+                "title": "Enter notification title...",
+                "message": "Enter your message..."
+            },
+            "types": {
+                "info": "Info",
+                "success": "Success",
+                "warning": "Warning",
+                "error": "Error"
+            },
+            "send": "Send"
+        }
+    },
+    "Inquiries": {
+        "title": "Customer Inquiries",
+        "subtitle": "View and manage customer messages",
+        "no_inquiries": "No inquiries found.",
+        "fields": {
+            "customer": "Customer",
+            "venue": "Venue",
+            "message": "Message",
+            "date": "Date",
+            "owner": "Owner",
+            "status": "Status"
+        }
+    },
+    "Login": {
+        "admin_title": "Admin Panel",
+        "welcome_title": "Welcome back",
+        "welcome_subtitle": "Sign in to manage your venue marketplace platform.",
+        "google_btn": "Continue with Google",
+        "signing_in": "Signing in...",
+        "admin_only": "Administrator access only",
+        "help_text": "Only authorized administrators can access this area.",
+        "hero_title": "Manage your platform with confidence",
+        "hero_desc": "Access powerful tools to manage venues, users, and inquiries across your marketplace.",
+        "features": {
+            "full_control": "Full platform control",
+            "analytics": "Real-time analytics & insights",
+            "security": "Secure admin authentication",
+            "support": "Priority support access"
+        }
+    },
+    "Notifications": {
+        "title": "Send Notifications",
+        "subtitle": "Send notifications to venue owners",
+        "fields": {
+            "title": "Notification Title",
+            "message": "Message",
+            "type": "Notification Type",
+            "recipients": "Recipients",
+            "user_id": "User ID"
+        },
+        "placeholders": {
+            "title": "Enter notification title...",
+            "message": "Enter your message...",
+            "user_id": "Enter user UUID..."
+        },
+        "sending": "Sending...",
+        "send": "Send Notification"
+    },
+    "Common": {
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "view": "View",
+        "close": "Close",
+        "confirm": "Confirm",
+        "back": "Back",
+        "next": "Next",
+        "search": "Search",
+        "filter": "Filter",
+        "sort": "Sort",
+        "all": "All",
+        "none": "None",
+        "yes": "Yes",
+        "no": "No"
+    }
+}

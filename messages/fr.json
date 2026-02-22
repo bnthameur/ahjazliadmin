@@ -1,0 +1,250 @@
+{
+    "Admin": {
+        "title": "Admin",
+        "subtitle": "Panneau d'Administration",
+        "nav": {
+            "dashboard": "Tableau de Bord",
+            "venues": "Salles",
+            "users": "Utilisateurs",
+            "inquiries": "Demandes",
+            "notifications": "Notifications",
+            "settings": "ParamÃ¨tres"
+        },
+        "header": {
+            "signout": "DÃ©connexion"
+        },
+        "role": {
+            "admin": "Administrateur",
+            "full_access": "AccÃ¨s complet Ã  la plateforme"
+        }
+    },
+    "Dashboard": {
+        "title": "Tableau de Bord",
+        "subtitle": "Surveillez et gÃ©rez votre plateforme",
+        "welcome": "Bon retour",
+        "welcome_subtitle": "Voici ce qui se passe sur votre plateforme aujourd'hui",
+        "stats": {
+            "pending_venues": "Salles en Attente",
+            "approved_venues": "Salles ApprouvÃ©es",
+            "published_venues": "Salles PubliÃ©es",
+            "rejected_venues": "Salles RejetÃ©es",
+            "pending_users": "Utilisateurs en Attente",
+            "active_users": "Utilisateurs Actifs",
+            "rejected_users": "Utilisateurs RejetÃ©s",
+            "total_inquiries": "Total des Demandes",
+            "this_month": "Ce Mois"
+        },
+        "quick_actions": {
+            "title": "Actions Rapides",
+            "manage_venues": "GÃ©rer les Salles",
+            "manage_venues_desc": "Examiner et approuver les annonces de salles",
+            "manage_users": "GÃ©rer les Utilisateurs",
+            "manage_users_desc": "Approuver les comptes propriÃ©taires",
+            "view_inquiries": "Voir les Demandes",
+            "view_inquiries_desc": "Demandes et messages des clients"
+        },
+        "recent_activity": {
+            "title": "ActivitÃ© RÃ©cente",
+            "empty": "Aucune activitÃ© rÃ©cente Ã  afficher"
+        }
+    },
+    "Venues": {
+        "title": "Gestion des Salles",
+        "subtitle": "Examiner et gÃ©rer les annonces de salles",
+        "tabs": {
+            "pending": "En Attente",
+            "approved": "ApprouvÃ©",
+            "published": "PubliÃ©",
+            "rejected": "RejetÃ©"
+        },
+        "no_venues": "Aucune salle {status} trouvÃ©e.",
+        "fields": {
+            "owner": "PropriÃ©taire",
+            "price": "Prix",
+            "capacity": "CapacitÃ©",
+            "guests": "invitÃ©s",
+            "submitted": "Soumis",
+            "contact_price": "Contactez pour le prix",
+            "location": "Lieu",
+            "date": "Date",
+            "address": "Adresse",
+            "email": "Email",
+            "phone": "Telephone"
+        },
+        "actions": {
+            "approve": "Approuver",
+            "reject": "Rejeter",
+            "view": "Review",
+            "publish": "Publier",
+            "unpublish": "DÃ©publier",
+            "call_owner": "Appeler le Proprietaire",
+            "notify_owner": "Notifier le Proprietaire",
+            "call_venue": "Appeler la Salle",
+            "pending": "Mettre en Attente"
+        },
+        "rejection_reason": "Raison du Rejet",
+        "drawer": {
+            "title": "Details de la Salle",
+            "sections": {
+                "description": "Description",
+                "amenities": "Equipements",
+                "owner": "Proprietaire",
+                "contact": "Contact"
+            }
+        },
+        "notify": {
+            "title": "Envoyer une Notification",
+            "fields": {
+                "title": "Titre",
+                "message": "Message"
+            },
+            "placeholders": {
+                "title": "Entrer le titre...",
+                "message": "Entrer votre message..."
+            },
+            "types": {
+                "info": "Info",
+                "success": "Succes",
+                "warning": "Avertissement",
+                "error": "Erreur"
+            },
+            "send": "Envoyer"
+        },
+        "reject_modal": {
+            "title": "Rejeter la Salle",
+            "description": "Veuillez fournir une raison pour rejeter \"{{venue}}\"",
+            "placeholder": "Entrez la raison du rejet (ex: informations manquantes, ne respecte pas les directives, etc.)",
+            "cancel": "Annuler",
+            "confirm": "Rejeter la Salle",
+            "submitting": "Rejet en cours..."
+        },
+        "summary": "Salles {status}"
+    },
+    "Users": {
+        "title": "Gestion des Utilisateurs",
+        "subtitle": "GÃ©rer les comptes propriÃ©taires",
+        "tabs": {
+            "pending": "En Attente",
+            "active": "Actif",
+            "rejected": "RejetÃ©"
+        },
+        "no_users": "Aucun utilisateur {status} trouvÃ©.",
+        "fields": {
+            "name": "Nom",
+            "email": "Email",
+            "role": "RÃ´le",
+            "joined": "Inscrit",
+            "business": "Entreprise",
+            "phone": "Telephone",
+            "id": "ID Utilisateur"
+        },
+        "roles": {
+            "admin": "Admin",
+            "venue_owner": "PropriÃ©taire de Salle",
+            "user": "Utilisateur"
+        },
+        "actions": {
+            "approve": "Approuver",
+            "reject": "Rejeter",
+            "view": "Review",
+            "call": "Appeler",
+            "notify": "Notifier",
+            "pending": "Mettre en Attente"
+        },
+        "drawer": {
+            "title": "Profil Utilisateur",
+            "sections": {
+                "profile": "Informations du Profil",
+                "actions": "Actions Rapides"
+            }
+        },
+        "notify": {
+            "title": "Envoyer une Notification",
+            "fields": {
+                "title": "Titre",
+                "message": "Message"
+            },
+            "placeholders": {
+                "title": "Entrer le titre...",
+                "message": "Entrer votre message..."
+            },
+            "types": {
+                "info": "Info",
+                "success": "Succes",
+                "warning": "Avertissement",
+                "error": "Erreur"
+            },
+            "send": "Envoyer"
+        },
+        "summary": "Utilisateurs {status}"
+    },
+    "Inquiries": {
+        "title": "Demandes des Clients",
+        "subtitle": "Voir et gÃ©rer les messages des clients",
+        "no_inquiries": "Aucune demande trouvÃ©e.",
+        "fields": {
+            "customer": "Client",
+            "venue": "Salle",
+            "message": "Message",
+            "date": "Date",
+            "owner": "PropriÃ©taire",
+            "status": "Statut"
+        }
+    },
+    "Login": {
+        "admin_title": "Panneau Admin",
+        "welcome_title": "Bon retour",
+        "welcome_subtitle": "Connectez-vous pour gÃ©rer votre plateforme de salles.",
+        "google_btn": "Continuer avec Google",
+        "signing_in": "Connexion en cours...",
+        "admin_only": "AccÃ¨s administrateur uniquement",
+        "help_text": "Seuls les administrateurs autorisÃ©s peuvent accÃ©der Ã  cette zone.",
+        "hero_title": "GÃ©rez votre plateforme en toute confiance",
+        "hero_desc": "AccÃ©dez Ã  des outils puissants pour gÃ©rer les salles, les utilisateurs et les demandes sur votre marketplace.",
+        "features": {
+            "full_control": "ContrÃ´le total de la plateforme",
+            "analytics": "Analyses et statistiques en temps rÃ©el",
+            "security": "Authentification sÃ©curisÃ©e",
+            "support": "AccÃ¨s support prioritaire"
+        }
+    },
+    "Notifications": {
+        "title": "Envoyer des Notifications",
+        "subtitle": "Envoyer des notifications aux propriÃ©taires de salles",
+        "fields": {
+            "title": "Titre de la Notification",
+            "message": "Message",
+            "type": "Type de Notification",
+            "recipients": "Destinataires",
+            "user_id": "ID Utilisateur"
+        },
+        "placeholders": {
+            "title": "Entrez le titre de la notification...",
+            "message": "Entrez votre message...",
+            "user_id": "Entrez l'UUID de l'utilisateur..."
+        },
+        "sending": "Envoi en cours...",
+        "send": "Envoyer la Notification"
+    },
+    "Common": {
+        "loading": "Chargement...",
+        "error": "Erreur",
+        "success": "SuccÃ¨s",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "edit": "Modifier",
+        "view": "Voir",
+        "close": "Fermer",
+        "confirm": "Confirmer",
+        "back": "Retour",
+        "next": "Suivant",
+        "search": "Rechercher",
+        "filter": "Filtrer",
+        "sort": "Trier",
+        "all": "Tout",
+        "none": "Aucun",
+        "yes": "Oui",
+        "no": "Non"
+    }
+}
